@@ -41,3 +41,6 @@ This project simulates a fintech-style alerting system using containerized micro
     terraform apply
 3. Push code to trigger GitHub Actions CI/CD pipeline
 4. Monitor logs and alerts through Azure Monitor
+
+![Python CI](https://github.com/medd1999/alert-system-azure/actions/workflows/python.yml/badge.svg)
+
