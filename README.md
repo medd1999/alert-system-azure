@@ -43,4 +43,4 @@ This project simulates a fintech-style alerting system using containerized micro
 4. Monitor logs and alerts through Azure Monitor
 
 ![Python CI](https://github.com/medd1999/alert-system-azure/actions/workflows/python.yml/badge.svg)
-
+![Terraform CI](https://github.com/medd1999/alert-system-azure/actions/workflows/terraform.yml/badge.svg)
