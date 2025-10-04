@@ -1,7 +1,8 @@
 venv/
 
-# Terraform
+# Terraform state and cache
 .terraform/
+crash.log
 *.tfstate
 *.tfstate.backup
 
