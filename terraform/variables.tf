@@ -1,5 +1,5 @@
 variable "location" {
-  description = "The Azure region to deploy resources in."
+  description = "Azure region"
   type        = string
   default     = "East US"
 }
@@ -7,13 +7,13 @@ variable "location" {
 variable "resource_group_name" {
   description = "Resource group name"
   type        = string
-  default     = "alert-system-rg"
+  default     = "alertResourceGroup"
 }
 
 variable "app_service_name" {
   description = "App Service name"
   type        = string
-  default     = "alert-system-app-service"
+  default     = "alertAppService"
 }
 
 variable "key_vault_name" {
