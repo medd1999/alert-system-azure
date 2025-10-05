@@ -18,7 +18,7 @@ variable "app_service_name" {
     description =  "App Service name"
 }
 
-variable "sku_tirer" {
+variable "sku_tier" {
     type = string
     description =  "App Service Plan SKU tier"
     default = "Standard"
