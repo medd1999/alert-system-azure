@@ -53,3 +53,19 @@ module "app_service" {
         "ALERT_MODE" = "active"
     }
 }
+
+module "monitor" {
+  source              = "./modules/monitor"
+  resource_group_name = var.resource_group_name
+  app_service_id      = module.app_service.app_service_id
+  cpu_threshold       = 75
+  action_group_id     = module.action_group.id
+}
+
+
+module "action_group" {
+  source              = "./modules/action_group"
+  name                = "alert-system-action-group"
+  resource_group_name = var.resource_group_name
+  email_address       = "aadewumi1999@gmail.com"
+}
