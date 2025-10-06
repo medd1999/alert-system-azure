@@ -1,6 +1,7 @@
 # Real-Time Alert System on Azure
 
 This project simulates a fintech-style alerting system using containerized microservices, Azure-native event triggers, and secure secrets management, with the purpose of demonstrating scalable DevOps practices including CI/CD pipelines, infrastructure as code, and automated secrets rotation. This file will serve as the `README.md` for the project, where you will find project documentation.
+## *Note: This system is still in development
 
 ## Tech Stack
 - **Python**: Backend microservices for data handling and alert dispatch
